@@ -1,0 +1,29 @@
+{
+  "name": "@cubiczan/chp-rust-pack",
+  "version": "0.1.0",
+  "description": "Installable CHP + Rust finance pack with landing pages, rollout assets, and a scaffold CLI.",
+  "type": "module",
+  "license": "Proprietary",
+  "bin": {
+    "chp-rust-pack": "./bin/chp-rust-pack.js"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./pack": "./pack.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "bin",
+    "index.js",
+    "pack.js",
+    "README.md"
+  ],
+  "scripts": {
+    "check": "node --check bin/chp-rust-pack.js",
+    "show": "node ./bin/chp-rust-pack.js show",
+    "init": "node ./bin/chp-rust-pack.js init ./chp-rust-pack"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
