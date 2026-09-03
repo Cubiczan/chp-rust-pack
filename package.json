@@ -12,6 +12,9 @@
     "./pack": "./pack.js",
     "./package.json": "./package.json"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "bin",
     "index.js",
